@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgb(10, 10, 54);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px 32px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+img {
+    width: 100%;
+    height: 100%
+}
+
+/* section1 */
+.sec1 p {
+    color: grey;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active {
+    color: forestgreen;
+}
+
+/* section1 */
+.sec1 {
+    padding-top: 2.25rem;
+    background-color: rgb(204, 221, 235);
+}
+
+.btn {
+    color: white;
+    background-color: forestgreen;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.col {
+    flex: 0 1 48%;
+    align-self: flex-start;
+}
+
+/* section2 */
+.sec2 {
+    padding-top: 2.25rem;
+}
+
+.sec2 p {
+    font-size: 1rem;
+    color: grey
+}
+
+h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.sec2 .col {
+    flex: 0 1 30%;
+}
+
+/* footer */
+footer {
+    background-color: rgb(10, 10, 54);
+}
+
+footer p {
+    color: grey;
+
+}
+
+i {
+    margin-left: 18px;
+}
+
+/* media query */
+@media screen and (max-width:768px) {
+    .flex {
+        flex-wrap: wrap;
+
+    }
+
+    .col {
+
+        flex: 0 1 100%;
+        margin-top: 1rem;
+        padding-top: 2rem;
+
+    }
+
+    .sec2 .col {
+        flex: 0 1 100%;
+        margin-top: 1rem;
+        padding-top: 2rem;
+    }
+
+    .footer .col {
+        /* flex: 0 1 100%; */
+        margin-top: 1rem;
+        padding-top: 2rem;
+    }
+}
