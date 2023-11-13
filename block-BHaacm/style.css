@@ -95,6 +95,9 @@ img {
 .sec2 {
     padding-top: 2.25rem;
 }
+.sec2 img{
+    height: 260px;
+}
 
 .sec2 p {
     font-size: 1rem;
@@ -105,6 +108,10 @@ h2 {
     text-transform: capitalize;
     text-align: center;
     font-size: 2rem;
+}
+
+.col3{
+    order: 1;
 }
 
 .sec2 .col {
@@ -145,10 +152,14 @@ i {
         margin-top: 1rem;
         padding-top: 2rem;
     }
+    .order1{
+        order: 1;
+    }
 
     .footer .col {
         /* flex: 0 1 100%; */
         margin-top: 1rem;
         padding-top: 2rem;
     }
+    
 }
