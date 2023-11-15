@@ -1,0 +1,127 @@
+<!-- writeCode
+
+- Create a responsive layout according to the design shown below.
+
+#### Large Screen view(Above 768px)
+
+![Responsive Layout Assignment](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/rwd/ex-1-desktop-view.png)
+
+#### Small Screen view(Below 768px)
+
+![Responsive Layout Assignment](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/rwd/ex-1-mob-view.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Pay attention to the codes, your code quality matters a lot.
+
+- Try to implement the layout as exactly as it has been provided in the design.
+
+- Pay attention to minor things like spacing, alignment, size, etc.
+
+- Use any font-family which suits better for the assignment.
+
+- Once you are done with the assignment connect with the mentor and get the code reviewed. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b529531a21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container ">
+            <div class="logo flex column">
+                <a href=""><img src="assets/logo.png" alt=""></a>
+                <nav>
+                    <li><a href="">Home</a></li>
+                    <li><a href="" class="active">Blog</a></li>
+                    <li><a href="">About</a></li>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- section1 -->
+        <section class="sec1">
+            <div class="container">
+                <div class="flex">
+                    <div class="col col3  ">
+                        <h1>What is Lorem Ipsum ?</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="col ">
+                        <img src="assets/01.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section2 -->
+        <section class="sec2">
+            <h2>Our blog</h2>
+            <div class="container flex ">
+
+                <div class="col">
+                    <img src="assets/02.png" alt="">
+                    <h3>Why do we use it ?</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution</p>
+                    <a href="" class="btn btn1">Read More</a>
+                </div>
+                <div class="col">
+                    <img src="assets/03.png" alt="">
+                    <h3>Where does it come from?</h3>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                        Latin...</p>
+                    <a href="" class="btn btn1">Read More</a>
+
+                </div>
+                <div class="col">
+                    <img src="assets/04.png" alt="">
+                    <h3>Where can i get some ?</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable..</p>
+                    <a href="" class="btn btn1">Read More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <!-- <div class=" container flex column">
+            <div class="col center">
+                <p>&copy AltCampus </p>
+            </div>
+            <div>
+                
+            </div>
+        </div> -->
+
+        <div class="container flex column">
+        
+            <p>&copy AltCampus </p>
+            <nav>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
